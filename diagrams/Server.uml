@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/alex/IdeaProjects/Labs/Lab_7/Server</OriginalElement>
+  <nodes>
+    <node x="1688.8404187827907" y="593.8351618014893">labs.lab7.server.managers.CollectionManager</node>
+    <node x="224.00764644694675" y="1393.5747663262255">labs.lab7.server.commands.AddIfMax</node>
+    <node x="1702.392869645667" y="1319.390363753485">labs.lab7.server.commands.CountByMinimalPoint</node>
+    <node x="1269.8153623403393" y="-81.39105222090546">labs.lab7.server.dao.LabWorkDao</node>
+    <node x="3190.652822205953" y="2144.282950468115">labs.lab7.server.exceptions.OpenServerException</node>
+    <node x="119.12819048102818" y="773.0135402040817">labs.lab7.server.commands.Command</node>
+    <node x="-140.07620271222555" y="1665.6912989585107">labs.lab7.server.commands.Help</node>
+    <node x="1630.7326272331607" y="83.84091097660017">labs.lab7.server.managers.DatabaseManager</node>
+    <node x="-44.637366371393" y="1440.7443084904428">labs.lab7.server.commands.SignUp</node>
+    <node x="1359.8545657395982" y="1458.7839566309008">labs.lab7.server.commands.Show</node>
+    <node x="2842.4147694396356" y="2158.451113896579">labs.lab7.server.utility.Server</node>
+    <node x="2416.9910184828254" y="1325.4298181930196">labs.lab7.server.commands.Add</node>
+    <node x="1716.1401676658313" y="1517.3912610835444">labs.lab7.server.commands.PrintFieldDescendingDifficulty</node>
+    <node x="3525.175044369006" y="2195.4952149177643">labs.lab7.server.Main</node>
+    <node x="3276.0688341831365" y="2279.7818951648865">Build_gradle</node>
+    <node x="2937.3824787762514" y="1778.8493468915374">labs.lab7.server.utility.ConnectionHandler</node>
+    <node x="710.2105714383715" y="1350.182134701008">labs.lab7.server.commands.SignIn</node>
+    <node x="2328.4246402260164" y="1504.8565713656703">labs.lab7.server.commands.PrintFieldAscendingDiscipline</node>
+    <node x="995.4527262292429" y="1263.959949774534">labs.lab7.server.commands.RemoveLower</node>
+    <node x="909.2285291833726" y="1516.3197393240637">labs.lab7.server.commands.Info</node>
+    <node x="558.8875376012314" y="1574.954220158356">labs.lab7.server.commands.Clear</node>
+    <node x="2074.5672379475527" y="1323.3276821544534">labs.lab7.server.commands.RemoveById</node>
+    <node x="2681.165757963641" y="941.0775912959831">labs.lab7.server.managers.CommandManager.CommandInfo</node>
+    <node x="2759.7021087623566" y="1278.8515802248626">labs.lab7.server.managers.CommandManager</node>
+    <node x="1346.8201056815342" y="1265.275417017067">labs.lab7.server.commands.Update</node>
+    <node x="2557.7672688923517" y="1739.2315567572884">labs.lab7.server.utility.RequestHandler</node>
+    <node x="3463.2290784446136" y="1802.8575379335666">labs.lab7.server.dao.User</node>
+    <node x="205.46056295469253" y="1590.476918445244">labs.lab7.server.commands.History</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="labs.lab7.server.commands.Show" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="141.0004342604018" y="4.336909933044808E-5" />
+      <point x="1681.0" y="1515.284" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Show" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="4.3426040178928815E-4" y="56.50004336909933" />
+      <point x="1500.855" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.utility.ConnectionHandler" target="labs.lab7.server.utility.RequestHandler" relationship="TO_ONE">
+      <point x="-4.7877625138426083E-4" y="152.49965310846255" />
+      <point x="3150.882" y="2115.0" />
+      <point x="2717.267" y="2115.0" />
+      <point x="-2.6889235186899896E-4" y="56.500443242711526" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CollectionManager" target="labs.lab7.server.managers.DatabaseManager" relationship="TO_ONE">
+      <point x="-94.10779154963006" y="-332.5" />
+      <point x="0.0" y="224.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Help" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="2.0271222552992185E-4" y="56.49970104148929" />
+      <point x="1.9239999999999782" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.AddIfMax" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="141.00035355305326" y="16.209233673774634" />
+      <point x="891.729" y="1466.284" />
+      <point x="891.729" y="1673.0" />
+      <point x="1681.0" y="1673.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Add" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="140.99998151717455" y="1.8180698043579469E-4" />
+      <point x="2716.491" y="1381.93" />
+      <point x="2716.491" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldAscendingDiscipline" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="3.5977398374598124E-4" y="56.50042863432964" />
+      <point x="2508.425" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.History" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-14.99956295469255" y="68.50008155475598" />
+      <point x="332.461" y="1765.0" />
+      <point x="1350.5" y="1765.0" />
+      <point x="1350.5" y="1869.732" />
+      <point x="2911.702" y="1869.732" />
+      <point x="-1.0876235637624632E-4" y="116.50041977513752" />
+    </edge>
+    <edge source="labs.lab7.server.commands.SignUp" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="102.061366371393" y="43.999691509557124" />
+      <point x="161.424" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.History" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="4.3704530745003467E-4" y="68.50008155475598" />
+      <point x="347.461" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.AddIfMax" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="141.00035355305326" y="2.3367377457361727E-4" />
+      <point x="620.0" y="1450.075" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveById" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-2.3794755293238268E-4" y="56.50031784554653" />
+      <point x="2215.567" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.CountByMinimalPoint" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-154.99986964566688" y="-5.115363753484871" />
+      <point x="1659.355" y="1370.775" />
+      <point x="1659.355" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.utility.Server" target="labs.lab7.server.utility.ConnectionHandler" relationship="TO_ONE">
+      <point x="-14.999769439635656" y="-116.5" />
+      <point x="-179.46747877625148" y="152.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Update" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="140.99989431846575" y="-4.170170668658102E-4" />
+      <point x="1645.0" y="1321.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.CountByMinimalPoint" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-154.99986964566688" y="9.884636246515129" />
+      <point x="1681.0" y="1385.775" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.SignIn" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-103.9995714383715" y="-1.3470100793711026E-4" />
+      <point x="620.0" y="1394.182" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveLower" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="72.27627377075714" y="56.50005022546611" />
+      <point x="1208.729" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Update" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-141.00010568153425" y="-4.170170668658102E-4" />
+      <point x="1329.32" y="1321.775" />
+      <point x="1329.32" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveById" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-22.56723794755294" y="56.50031784554653" />
+      <point x="2193.0" y="1472.0" />
+      <point x="1681.0" y="1472.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager" target="labs.lab7.server.managers.CommandManager.CommandInfo" relationship="TO_MANY">
+      <point x="-116.03635079871538" y="-116.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveLower" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="87.27627377075714" y="56.50005022546611" />
+      <point x="1223.729" y="1673.0" />
+      <point x="1681.0" y="1673.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Help" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-14.99979728777447" y="56.49970104148929" />
+      <point x="-13.076000000000022" y="1869.732" />
+      <point x="2911.702" y="1869.732" />
+      <point x="-1.0876235637624632E-4" y="116.50041977513752" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldDescendingDifficulty" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-182.0001676658312" y="-2.61083544273788E-4" />
+      <point x="1681.0" y="1573.891" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Clear" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="4.6239876854770046E-4" y="56.499779841643885" />
+      <point x="699.8879999999999" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Info" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-14.999529183372601" y="56.50026067593626" />
+      <point x="1035.229" y="1673.0" />
+      <point x="1681.0" y="1673.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Info" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="4.7081662739856256E-4" y="56.50026067593626" />
+      <point x="1050.229" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager.CommandInfo" target="labs.lab7.server.managers.CommandManager" relationship="INNER_CLASS">
+      <point x="107.0" y="80.5" />
+      <point x="-9.036350798715375" y="-116.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Add" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-1.8482825453247642E-5" y="56.500181806980436" />
+      <point x="2557.991" y="1472.0" />
+      <point x="1681.0" y="1472.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Clear" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="141.0004623987686" y="-9.634220158356129" />
+      <point x="891.729" y="1621.82" />
+      <point x="891.729" y="1673.0" />
+      <point x="1681.0" y="1673.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.utility.Server" target="labs.lab7.server.utility.RequestHandler" relationship="TO_ONE">
+      <point x="2.305603643435461E-4" y="-116.50011389657902" />
+      <point x="2986.415" y="2115.0" />
+      <point x="2717.267" y="2115.0" />
+      <point x="-2.6889235186899896E-4" y="56.500443242711526" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldAscendingDiscipline" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="3.5977398374598124E-4" y="-56.49957136567036" />
+      <point x="2508.425" y="1472.0" />
+      <point x="1681.0" y="1472.0" />
+      <point x="1681.0" y="1306.775" />
+      <point x="1645.0" y="1306.775" />
+      <point x="1645.0" y="926.335" />
+      <point x="-182.0004187827908" y="-1.6180148929834104E-4" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldDescendingDifficulty" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-1.6766583121352596E-4" y="56.499738916455726" />
+      <point x="1898.14" y="1714.0" />
+      <point x="1185.5" y="1714.0" />
+      <point x="1185.5" y="1802.0" />
+      <point x="187.961" y="1802.0" />
+      <point x="187.961" y="1151.0" />
+      <point x="620.0" y="1151.0" />
+      <point x="620.0" y="913.514" />
+      <point x="118.49980951897182" y="4.5979591834566236E-4" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager" target="labs.lab7.server.commands.Command" relationship="TO_MANY">
+      <point x="15.963649201284625" y="-116.5" />
+      <point x="2927.665757963641" y="-98.89105222090546" />
+      <point x="237.62819048102818" y="-98.89105222090546" />
+      <point x="0.0" y="-140.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.RequestHandler" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-159.50026889235187" y="6.268443242711555" />
+      <point x="1350.5" y="1802.0" />
+      <point x="1350.5" y="1869.732" />
+      <point x="2911.702" y="1869.732" />
+      <point x="-1.0876235637624632E-4" y="116.50041977513752" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3300384809455715" showDependencies="true" x="1560.5135319898072" y="992.9346356666651" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/alex/IdeaProjects/Labs/Lab_7</OriginalElement>
+  <nodes>
+    <node x="3129.0" y="1427.5">labs.lab7.common.network.responses.SaveResponse</node>
+    <node x="6859.5" y="1022.5">labs.lab7.server.dao.LabWorkDao</node>
+    <node x="5399.5" y="3154.5">labs.lab7.common.network.requests.HistoryRequest</node>
+    <node x="3248.0" y="2207.5">labs.lab7.common.network.responses.ClearResponse</node>
+    <node x="109.5" y="3154.5">labs.lab7.client.commands.ExecuteScript</node>
+    <node x="4458.0" y="2006.5">labs.lab7.server.managers.DatabaseManager</node>
+    <node x="3366.0" y="1427.5">labs.lab7.common.network.responses.RemoveByIdResponse</node>
+    <node x="6839.5" y="3154.5">labs.lab7.common.network.requests.UpdateRequest</node>
+    <node x="2503.0" y="4494.5">labs.lab7.server.commands.Add</node>
+    <node x="1701.0" y="5830.5">labs.lab7.server.Main</node>
+    <node x="4050.5" y="5238.5">labs.lab7.server.utility.ConnectionHandler</node>
+    <node x="5783.5" y="2174.5">labs.lab7.common.network.responses.HelpResponse</node>
+    <node x="-164.5" y="3662.5">labs.lab7.client.commands.PrintFieldAscendingDiscipline</node>
+    <node x="2743.0" y="4234.5">labs.lab7.server.commands.RemoveLower</node>
+    <node x="-179.0" y="2150.5">labs.lab7.client.forms.LabWorkForm</node>
+    <node x="2719.5" y="2018.5">labs.lab7.common.utility.StandardConsole</node>
+    <node x="6449.5" y="570.5">labs.lab7.common.utility.CommandInfo</node>
+    <node x="232.0" y="4434.5">labs.lab7.server.managers.CommandManager</node>
+    <node x="64.5" y="2162.5">labs.lab7.client.forms.DifficultyForm</node>
+    <node x="6649.5" y="3674.5">labs.lab7.common.network.requests.AddRequest</node>
+    <node x="404.5" y="4994.5">labs.lab7.server.utility.RequestHandler</node>
+    <node x="1548.5" y="5687.5">labs.lab7.common.exceptions.ServerConnectionException</node>
+    <node x="6162.0" y="3398.5">labs.lab7.server.managers.CollectionManager</node>
+    <node x="5804.5" y="450.5">labs.lab7.common.models.Discipline</node>
+    <node x="4621.0" y="3707.5">labs.lab7.common.network.requests.InfoRequest</node>
+    <node x="1407.5" y="5887.5">labs.lab7.server.exceptions.OpenServerException</node>
+    <node x="389.5" y="3142.5">labs.lab7.client.commands.Show</node>
+    <node x="602.0" y="4814.5">labs.lab7.server.commands.Help</node>
+    <node x="3509.0" y="2174.5">labs.lab7.common.network.responses.RemoveLowerResponse</node>
+    <node x="1033.5" y="3662.5">labs.lab7.client.commands.PrintFieldDescendingDifficulty</node>
+    <node x="2898.0" y="546.5">labs.lab7.common.models.User</node>
+    <node x="2003.5" y="2054.5">labs.lab7.client.utility.Client</node>
+    <node x="1309.5" y="3142.5">labs.lab7.client.commands.Clear</node>
+    <node x="578.0" y="3650.5">labs.lab7.client.commands.History</node>
+    <node x="1709.5" y="3142.5">labs.lab7.client.commands.AddIfMax</node>
+    <node x="829.5" y="2102.5">labs.lab7.client.commands.Command</node>
+    <node x="5773.0" y="3707.5">labs.lab7.common.network.requests.PrintFieldAscendingDisciplineRequest</node>
+    <node x="302.5" y="2150.5">labs.lab7.client.forms.DisciplineForm</node>
+    <node x="1263.0" y="5675.5">labs.lab7.common.exceptions.AuthorizationException</node>
+    <node x="3690.5" y="1394.5">labs.lab7.common.network.responses.InfoResponse</node>
+    <node x="6198.0" y="54.5">labs.lab7.common.models.Coordinates</node>
+    <node x="3007.0" y="2114.5">labs.lab7.common.network.requests.Request</node>
+    <node x="3835.0" y="2174.5">labs.lab7.common.network.responses.AddResponse</node>
+    <node x="6012.5" y="3154.5">labs.lab7.common.network.requests.AddIfMaxRequest</node>
+    <node x="2983.0" y="4494.5">labs.lab7.server.commands.AddIfMax</node>
+    <node x="4850.5" y="3707.5">labs.lab7.common.network.requests.PrintFieldDescendingDifficultyRequest</node>
+    <node x="3229.0" y="4234.5">labs.lab7.server.commands.CountByMinimalPoint</node>
+    <node x="2105.5" y="3070.5">labs.lab7.server.commands.Command</node>
+    <node x="4257.0" y="3707.5">labs.lab7.common.network.requests.ClearRequest</node>
+    <node x="1879.5" y="87.5">labs.lab7.common.utility.Console</node>
+    <node x="3503.0" y="4494.5">labs.lab7.server.commands.Show</node>
+    <node x="3121.0" y="114.5">labs.lab7.common.network.responses.Response</node>
+    <node x="554.5" y="2162.5">labs.lab7.client.forms.CoordinatesForm</node>
+    <node x="800.5" y="3142.5">labs.lab7.client.commands.CountByMinimalPoint</node>
+    <node x="4731.0" y="3187.5">labs.lab7.common.network.requests.SignUpRequest</node>
+    <node x="4362.0" y="3154.5">labs.lab7.common.network.requests.CountByMinimalPointRequest</node>
+    <node x="6398.0" y="3154.5">labs.lab7.common.network.requests.RemoveLowerRequest</node>
+    <node x="5311.5" y="1394.5">labs.lab7.common.network.responses.PrintFieldAscendingDisciplineResponse</node>
+    <node x="480.0" y="4251.0">labs.lab7.server.commands.SignIn</node>
+    <node x="3802.5" y="3070.5">labs.lab7.client.utility.Runner</node>
+    <node x="3884.0" y="4494.5">labs.lab7.server.commands.PrintFieldAscendingDiscipline</node>
+    <node x="7036.5" y="3674.5">labs.lab7.common.network.responses.ShowResponse</node>
+    <node x="3742.5" y="4186.5">labs.lab7.client.utility.Runner.ExitCode</node>
+    <node x="1161.0" y="5871.0">labs.lab7.client.Main</node>
+    <node x="3967.5" y="1394.5">labs.lab7.common.network.responses.CountByMinimalPointResponse</node>
+    <node x="1908.0" y="3662.5">labs.lab7.client.commands.RemoveById</node>
+    <node x="2897.5" y="1382.5">labs.lab7.client.utility.SessionHandler</node>
+    <node x="4283.0" y="4494.5">labs.lab7.server.commands.Clear</node>
+    <node x="249.5" y="3650.5">labs.lab7.server.managers.CommandManager.CommandInfo</node>
+    <node x="6055.0" y="1394.5">labs.lab7.common.network.responses.PrintFieldDescendingDifficultyResponse</node>
+    <node x="5536.0" y="3707.5">labs.lab7.common.network.requests.ShowRequest</node>
+    <node x="4600.0" y="5250.5">labs.lab7.server.dao.User</node>
+    <node x="6243.5" y="-112.5">labs.lab7.common.utility.Validatable</node>
+    <node x="4205.5" y="2207.5">labs.lab7.common.network.responses.SignInResponse</node>
+    <node x="995.0" y="5687.5">labs.lab7.common.exceptions.InvalidFormException</node>
+    <node x="5294.0" y="3707.5">labs.lab7.common.network.requests.SignInRequest</node>
+    <node x="3316.0" y="3130.5">labs.lab7.client.commands.SignIn</node>
+    <node x="4322.0" y="1427.5">labs.lab7.common.network.responses.SignUpResponse</node>
+    <node x="4681.5" y="1427.5">labs.lab7.common.network.responses.UpdateResponse</node>
+    <node x="993.5" y="1370.5">labs.lab7.client.forms.UserForm</node>
+    <node x="3109.5" y="3674.5">labs.lab7.client.commands.Exit</node>
+    <node x="2709.5" y="3662.5">labs.lab7.client.commands.Update</node>
+    <node x="4800.5" y="2174.5">labs.lab7.common.network.responses.HistoryResponse</node>
+    <node x="600.0" y="4511.0">labs.lab7.server.commands.SignUp</node>
+    <node x="872.0" y="5871.0">Build_gradle</node>
+    <node x="1502.5" y="3662.5">labs.lab7.client.commands.RemoveLower</node>
+    <node x="3552.5" y="3650.5">labs.lab7.client.commands.SignUp</node>
+    <node x="7032.5" y="1934.5">labs.lab7.common.utility.CommandType</node>
+    <node x="420.0" y="5794.5">labs.lab7.server.utility.Server</node>
+    <node x="2309.5" y="3662.5">labs.lab7.client.commands.Add</node>
+    <node x="6062.0" y="4494.5">labs.lab7.server.commands.PrintFieldDescendingDifficulty</node>
+    <node x="6397.5" y="1922.5">labs.lab7.common.models.LabWork</node>
+    <node x="5098.0" y="3154.5">labs.lab7.common.network.requests.RemoveByIdRequest</node>
+    <node x="2909.5" y="3142.5">labs.lab7.client.commands.Info</node>
+    <node x="741.5" y="5671.0">Settings_gradle</node>
+    <node x="5009.0" y="1427.5">labs.lab7.common.network.responses.ErrorResponse</node>
+    <node x="6363.0" y="4234.5">labs.lab7.server.commands.Info</node>
+    <node x="1498.5" y="2054.5">labs.lab7.common.managers.CSVParser</node>
+    <node x="2509.5" y="3142.5">labs.lab7.client.commands.Help</node>
+    <node x="6723.0" y="510.5">labs.lab7.common.models.Difficulty</node>
+    <node x="6603.0" y="4494.5">labs.lab7.server.commands.RemoveById</node>
+    <node x="5130.0" y="2150.5">labs.lab7.common.network.responses.AddIfMaxResponse</node>
+    <node x="1802.0" y="599.0">labs.lab7.common.utility.Form</node>
+    <node x="5659.0" y="3187.5">labs.lab7.common.network.requests.HelpRequest</node>
+    <node x="6843.0" y="4234.5">labs.lab7.server.commands.Update</node>
+    <node x="842.0" y="4982.5">labs.lab7.server.commands.History</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="labs.lab7.common.network.responses.SignUpResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4424.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.Runner.ExitCode" target="labs.lab7.client.utility.Runner" relationship="INNER_CLASS">
+      <point x="0.0" y="-112.5" />
+      <point x="3844.0" y="4119.0" />
+      <point x="3984.0" y="4119.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.HistoryResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="4944.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.Server" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-124.5" />
+      <point x="564.0" y="5659.0" />
+      <point x="4584.0" y="5659.0" />
+      <point x="4584.0" y="3799.0" />
+      <point x="4224.0" y="3799.0" />
+      <point x="4224.0" y="2519.0" />
+      <point x="2704.0" y="2519.0" />
+      <point x="2704.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.History" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="63.0" y="-88.5" />
+      <point x="767.0" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveById" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-58.0" y="-76.5" />
+      <point x="1966.0" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Add" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="2366.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Update" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2881.25" y="3019.0" />
+      <point x="2424.0" y="3019.0" />
+      <point x="2424.0" y="2779.0" />
+      <point x="2144.0" y="2779.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.AddIfMax" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="3194.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldAscendingDiscipline" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-90.0" y="-64.5" />
+      <point x="3974.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.PrintFieldDescendingDifficultyRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5024.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.CountByMinimalPointRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="4524.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.ExecuteScript" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="57.25" y="-64.5" />
+      <point x="281.25" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.HelpResponse" target="labs.lab7.common.utility.CommandInfo" relationship="TO_MANY">
+      <point x="80.25" y="-64.5" />
+      <point x="6024.25" y="919.0" />
+      <point x="6564.0" y="919.0" />
+      <point x="0.0" y="88.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.DisciplineForm" target="labs.lab7.common.utility.Form" relationship="GENERALIZATION">
+      <point x="-50.75" y="-88.5" />
+      <point x="353.25" y="1339.0" />
+      <point x="-56.0" y="1339.0" />
+      <point x="-56.0" y="739.0" />
+      <point x="1864.0" y="739.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Show" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="446.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.AddRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="-57.25" y="-64.5" />
+      <point x="6706.75" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveLower" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-60.75" y="-76.5" />
+      <point x="1563.25" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Clear" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="1481.25" y="3079.0" />
+      <point x="1904.0" y="3079.0" />
+      <point x="1904.0" y="2859.0" />
+      <point x="1464.0" y="2859.0" />
+      <point x="1464.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.AddIfMaxRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="-65.75" y="-64.5" />
+      <point x="6078.25" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.CountByMinimalPoint" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="71.75" y="-76.5" />
+      <point x="1015.75" y="3119.0" />
+      <point x="1824.0" y="3119.0" />
+      <point x="1824.0" y="2819.0" />
+      <point x="2144.0" y="2819.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.UpdateResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4784.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignUp" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="75.75" y="-88.5" />
+      <point x="3779.75" y="3619.0" />
+      <point x="3784.0" y="3619.0" />
+      <point x="3784.0" y="2639.0" />
+      <point x="2584.0" y="2639.0" />
+      <point x="2584.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.CoordinatesForm" target="labs.lab7.common.utility.Form" relationship="GENERALIZATION">
+      <point x="-54.75" y="-76.5" />
+      <point x="609.25" y="1339.0" />
+      <point x="-56.0" y="1339.0" />
+      <point x="-56.0" y="739.0" />
+      <point x="1864.0" y="739.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.PrintFieldAscendingDisciplineResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-106.25" y="-64.5" />
+      <point x="5417.75" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveById" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="6673.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.ShowRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5624.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.CountByMinimalPoint" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-77.5" y="-64.5" />
+      <point x="3306.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.SignIn" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.0" />
+      <point x="584.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveById" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="6814.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.ShowResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="73.75" y="-64.5" />
+      <point x="7257.75" y="3039.0" />
+      <point x="5764.0" y="3039.0" />
+      <point x="5764.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager" target="labs.lab7.server.managers.CommandManager.CommandInfo" relationship="TO_MANY">
+      <point x="76.0" y="-124.5" />
+      <point x="460.0" y="4399.0" />
+      <point x="464.0" y="4399.0" />
+      <point x="464.0" y="3859.0" />
+      <point x="421.25" y="3859.0" />
+      <point x="57.25" y="88.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldAscendingDiscipline" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="84.25" y="-76.5" />
+      <point x="88.25" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.Runner" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-148.5" />
+      <point x="3984.0" y="3039.0" />
+      <point x="3824.0" y="3039.0" />
+      <point x="3824.0" y="2599.0" />
+      <point x="2624.0" y="2599.0" />
+      <point x="2624.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.PrintFieldAscendingDisciplineRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5944.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Clear" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="1366.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Clear" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="4494.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.ClearRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4344.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldDescendingDifficulty" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="85.25" y="-76.5" />
+      <point x="1289.25" y="3099.0" />
+      <point x="1864.0" y="3099.0" />
+      <point x="1864.0" y="2939.0" />
+      <point x="1424.0" y="2939.0" />
+      <point x="1424.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldAscendingDiscipline" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="90.0" y="-64.5" />
+      <point x="4154.0" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.UpdateRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="-62.25" y="-64.5" />
+      <point x="6901.75" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.AddIfMax" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="1881.25" y="3039.0" />
+      <point x="2144.0" y="3039.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignIn" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-74.0" y="-88.5" />
+      <point x="3390.0" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveById" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="58.0" y="-76.5" />
+      <point x="2082.0" y="3059.0" />
+      <point x="2304.0" y="3059.0" />
+      <point x="2304.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Help" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="71.0" y="-64.5" />
+      <point x="815.0" y="4779.0" />
+      <point x="824.0" y="4779.0" />
+      <point x="824.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.User" target="labs.lab7.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-112.5" />
+      <point x="2984.0" y="39.0" />
+      <point x="6364.0" y="39.0" />
+      <point x="6364.0" y="-21.0" />
+      <point x="6364.25" y="-21.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.Difficulty" target="labs.lab7.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-148.5" />
+      <point x="6824.0" y="39.0" />
+      <point x="6364.0" y="39.0" />
+      <point x="6364.0" y="-21.0" />
+      <point x="6364.25" y="-21.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.History" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-71.0" y="-76.5" />
+      <point x="913.0" y="4759.0" />
+      <point x="564.0" y="4759.0" />
+      <point x="564.0" y="4719.0" />
+      <point x="384.0" y="4719.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Info" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="3081.25" y="3039.0" />
+      <point x="2464.0" y="3039.0" />
+      <point x="2464.0" y="2739.0" />
+      <point x="2144.0" y="2739.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.LabWorkForm" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="51.5" y="-88.5" />
+      <point x="-24.5" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.History" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="71.0" y="-76.5" />
+      <point x="1055.0" y="4959.0" />
+      <point x="1064.0" y="4959.0" />
+      <point x="1064.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Info" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="3081.25" y="3039.0" />
+      <point x="2464.0" y="3039.0" />
+      <point x="2464.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.Runner" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="0.0" y="-148.5" />
+      <point x="3984.0" y="3039.0" />
+      <point x="3824.0" y="3039.0" />
+      <point x="3824.0" y="2619.0" />
+      <point x="2144.0" y="2619.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignIn" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="74.0" y="-88.5" />
+      <point x="3538.0" y="3099.0" />
+      <point x="3544.0" y="3099.0" />
+      <point x="3544.0" y="2699.0" />
+      <point x="2144.0" y="2699.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.SessionHandler" target="labs.lab7.common.models.User" relationship="TO_ONE">
+      <point x="0.0" y="-76.5" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Update" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="6913.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldAscendingDiscipline" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="-84.25" y="-76.5" />
+      <point x="-80.25" y="3639.0" />
+      <point x="44.0" y="3639.0" />
+      <point x="44.0" y="2679.0" />
+      <point x="2144.0" y="2679.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignUp" target="labs.lab7.client.utility.SessionHandler" relationship="TO_ONE">
+      <point x="75.75" y="-88.5" />
+      <point x="3779.75" y="3619.0" />
+      <point x="3784.0" y="3619.0" />
+      <point x="3784.0" y="2379.0" />
+      <point x="2984.0" y="2379.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Help" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-71.0" y="-64.5" />
+      <point x="673.0" y="4759.0" />
+      <point x="564.0" y="4759.0" />
+      <point x="564.0" y="4719.0" />
+      <point x="384.0" y="4719.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.utility.Form" target="labs.lab7.common.utility.Validatable" relationship="DEPENDENCY">
+      <point x="0.0" y="-60.0" />
+      <point x="1864.0" y="19.0" />
+      <point x="6283.75" y="19.0" />
+      <point x="-40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.server.dao.LabWorkDao" target="labs.lab7.common.models.Difficulty" relationship="TO_ONE">
+      <point x="0.0" y="-436.5" />
+      <point x="7004.0" y="999.0" />
+      <point x="6824.0" y="999.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.ClearResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="3344.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.History" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="-63.0" y="-88.5" />
+      <point x="641.0" y="3619.0" />
+      <point x="784.0" y="3619.0" />
+      <point x="784.0" y="2759.0" />
+      <point x="2144.0" y="2759.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.UserForm" target="labs.lab7.common.utility.Form" relationship="GENERALIZATION">
+      <point x="-45.25" y="-88.5" />
+      <point x="1038.75" y="1339.0" />
+      <point x="-56.0" y="1339.0" />
+      <point x="-56.0" y="739.0" />
+      <point x="1864.0" y="739.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Info" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="2966.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.RemoveByIdResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="3484.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Update" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2881.25" y="3019.0" />
+      <point x="2424.0" y="3019.0" />
+      <point x="2424.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveLower" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="60.75" y="-76.5" />
+      <point x="1684.75" y="3059.0" />
+      <point x="1944.0" y="3059.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldDescendingDifficulty" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-91.0" y="-64.5" />
+      <point x="6153.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.ExecuteScript" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="-57.25" y="-64.5" />
+      <point x="166.75" y="2959.0" />
+      <point x="284.0" y="2959.0" />
+      <point x="284.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Show" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="3573.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.SignInResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4304.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.Request" target="labs.lab7.common.models.User" relationship="TO_ONE">
+      <point x="0.0" y="-124.5" />
+      <point x="3104.0" y="1359.0" />
+      <point x="2984.0" y="1359.0" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.SignUpRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4824.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignIn" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="74.0" y="-88.5" />
+      <point x="3538.0" y="3099.0" />
+      <point x="3544.0" y="3099.0" />
+      <point x="3544.0" y="2679.0" />
+      <point x="2544.0" y="2679.0" />
+      <point x="2544.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CollectionManager" target="labs.lab7.server.managers.DatabaseManager" relationship="TO_ONE">
+      <point x="0.0" y="-340.5" />
+      <point x="6344.0" y="3139.0" />
+      <point x="6584.0" y="3139.0" />
+      <point x="6584.0" y="3079.0" />
+      <point x="4604.0" y="3079.0" />
+      <point x="0.0" y="232.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Show" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="561.25" y="3119.0" />
+      <point x="564.0" y="3119.0" />
+      <point x="564.0" y="2719.0" />
+      <point x="2144.0" y="2719.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.LabWorkForm" target="labs.lab7.common.utility.Form" relationship="GENERALIZATION">
+      <point x="-51.5" y="-88.5" />
+      <point x="-127.5" y="1339.0" />
+      <point x="-56.0" y="1339.0" />
+      <point x="-56.0" y="739.0" />
+      <point x="1864.0" y="739.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.RemoveLowerRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="-73.0" y="-64.5" />
+      <point x="6471.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.Discipline" target="labs.lab7.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-208.5" />
+      <point x="5984.0" y="39.0" />
+      <point x="6364.0" y="39.0" />
+      <point x="6364.0" y="-21.0" />
+      <point x="6364.25" y="-21.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Clear" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="1481.25" y="3079.0" />
+      <point x="1904.0" y="3079.0" />
+      <point x="1904.0" y="2879.0" />
+      <point x="2144.0" y="2879.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.SignUp" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.0" />
+      <point x="704.0" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Add" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2481.25" y="3059.0" />
+      <point x="2344.0" y="3059.0" />
+      <point x="2344.0" y="2899.0" />
+      <point x="2144.0" y="2899.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.HelpResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-80.25" y="-64.5" />
+      <point x="5863.75" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Update" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="2766.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.PrintFieldAscendingDisciplineResponse" target="labs.lab7.common.models.Discipline" relationship="TO_MANY">
+      <point x="106.25" y="-64.5" />
+      <point x="5630.25" y="1359.0" />
+      <point x="5984.0" y="1359.0" />
+      <point x="0.0" y="208.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.PrintFieldDescendingDifficultyResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-104.5" y="-64.5" />
+      <point x="6159.5" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.CoordinatesForm" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="54.75" y="-76.5" />
+      <point x="718.75" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Update" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="7054.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.RemoveLowerResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="3644.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.UpdateRequest" target="labs.lab7.common.models.LabWork" relationship="TO_ONE">
+      <point x="62.25" y="-64.5" />
+      <point x="7026.25" y="3119.0" />
+      <point x="6824.0" y="3119.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveLower" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="2954.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.ConnectionHandler" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-160.5" />
+      <point x="4264.0" y="4119.0" />
+      <point x="4184.0" y="4119.0" />
+      <point x="4184.0" y="2539.0" />
+      <point x="2664.0" y="2539.0" />
+      <point x="2664.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.managers.CSVParser" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-184.5" />
+      <point x="1704.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.Coordinates" target="labs.lab7.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-184.5" />
+      <point x="6364.0" y="-21.0" />
+      <point x="6364.25" y="-21.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.AddResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="3944.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.Client" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-184.5" />
+      <point x="2144.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.CountByMinimalPoint" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-71.75" y="-76.5" />
+      <point x="872.25" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.PrintFieldDescendingDifficulty" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="91.0" y="-64.5" />
+      <point x="6335.0" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveLower" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="60.75" y="-76.5" />
+      <point x="1684.75" y="3059.0" />
+      <point x="1944.0" y="3059.0" />
+      <point x="1944.0" y="2939.0" />
+      <point x="2144.0" y="2939.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Help" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2681.25" y="2999.0" />
+      <point x="2384.0" y="2999.0" />
+      <point x="2384.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Info" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="6574.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager.CommandInfo" target="labs.lab7.server.managers.CommandManager" relationship="INNER_CLASS">
+      <point x="-57.25" y="88.5" />
+      <point x="306.75" y="4399.0" />
+      <point x="308.0" y="4399.0" />
+      <point x="-76.0" y="-124.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.DifficultyForm" target="labs.lab7.common.utility.Form" relationship="GENERALIZATION">
+      <point x="-49.75" y="-76.5" />
+      <point x="114.25" y="1339.0" />
+      <point x="-56.0" y="1339.0" />
+      <point x="-56.0" y="739.0" />
+      <point x="1864.0" y="739.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="labs.lab7.server.utility.Server" target="labs.lab7.server.utility.RequestHandler" relationship="TO_ONE">
+      <point x="0.0" y="-124.5" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.HistoryRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="5504.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.CountByMinimalPointResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="4124.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.LabWork" target="labs.lab7.common.models.Difficulty" relationship="TO_ONE">
+      <point x="-103.25" y="-316.5" />
+      <point x="6500.75" y="979.0" />
+      <point x="6364.0" y="979.0" />
+      <point x="6364.0" y="939.0" />
+      <point x="6824.0" y="939.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CommandManager" target="labs.lab7.server.commands.Command" relationship="TO_MANY">
+      <point x="76.0" y="-124.5" />
+      <point x="460.0" y="4399.0" />
+      <point x="464.0" y="4399.0" />
+      <point x="464.0" y="3859.0" />
+      <point x="2164.75" y="3859.0" />
+      <point x="-59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.RequestHandler" target="labs.lab7.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="0.0" y="-64.5" />
+      <point x="564.0" y="4719.0" />
+      <point x="384.0" y="4719.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.ShowResponse" target="labs.lab7.common.models.LabWork" relationship="TO_MANY">
+      <point x="-73.75" y="-64.5" />
+      <point x="7110.25" y="3119.0" />
+      <point x="6824.0" y="3119.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Show" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="3714.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.HelpRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5744.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.AddIfMaxResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-88.5" />
+      <point x="5284.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Help" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="2566.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignUp" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="75.75" y="-88.5" />
+      <point x="3779.75" y="3619.0" />
+      <point x="3784.0" y="3619.0" />
+      <point x="3784.0" y="2659.0" />
+      <point x="2144.0" y="2659.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.LabWork" target="labs.lab7.common.models.Discipline" relationship="TO_ONE">
+      <point x="-103.25" y="-316.5" />
+      <point x="6500.75" y="979.0" />
+      <point x="6364.0" y="979.0" />
+      <point x="6364.0" y="959.0" />
+      <point x="5984.0" y="959.0" />
+      <point x="0.0" y="208.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Help" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2681.25" y="2999.0" />
+      <point x="2384.0" y="2999.0" />
+      <point x="2384.0" y="2859.0" />
+      <point x="2144.0" y="2859.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.ConnectionHandler" target="labs.lab7.server.utility.RequestHandler" relationship="TO_ONE">
+      <point x="0.0" y="-160.5" />
+      <point x="4264.0" y="5219.0" />
+      <point x="564.0" y="5219.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.InfoRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="4704.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldAscendingDiscipline" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="-84.25" y="-76.5" />
+      <point x="-80.25" y="3639.0" />
+      <point x="44.0" y="3639.0" />
+      <point x="44.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.SignInRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.History" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="-63.0" y="-88.5" />
+      <point x="641.0" y="3619.0" />
+      <point x="784.0" y="3619.0" />
+      <point x="784.0" y="2739.0" />
+      <point x="804.0" y="2739.0" />
+      <point x="804.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Add" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="2573.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Exit" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-64.5" />
+      <point x="3281.25" y="2959.0" />
+      <point x="2504.0" y="2959.0" />
+      <point x="2504.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Add" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="2481.25" y="3059.0" />
+      <point x="2344.0" y="3059.0" />
+      <point x="2344.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.UserForm" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="45.25" y="-88.5" />
+      <point x="1129.25" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignIn" target="labs.lab7.client.utility.SessionHandler" relationship="TO_ONE">
+      <point x="74.0" y="-88.5" />
+      <point x="3538.0" y="3099.0" />
+      <point x="3544.0" y="3099.0" />
+      <point x="3544.0" y="2579.0" />
+      <point x="3784.0" y="2579.0" />
+      <point x="3784.0" y="2379.0" />
+      <point x="2984.0" y="2379.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="labs.lab7.common.utility.StandardConsole" target="labs.lab7.common.utility.Console" relationship="REALIZATION">
+      <point x="0.0" y="-220.5" />
+      <point x="2844.0" y="1299.0" />
+      <point x="2066.25" y="1299.0" />
+      <point x="62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.DifficultyForm" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="49.75" y="-76.5" />
+      <point x="213.75" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.forms.DisciplineForm" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="50.75" y="-88.5" />
+      <point x="454.75" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.LabWork" target="labs.lab7.common.utility.Validatable" relationship="REALIZATION">
+      <point x="103.25" y="-316.5" />
+      <point x="6707.25" y="979.0" />
+      <point x="6704.0" y="979.0" />
+      <point x="6704.0" y="39.0" />
+      <point x="6364.0" y="39.0" />
+      <point x="6364.0" y="-21.0" />
+      <point x="6364.25" y="-21.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldDescendingDifficulty" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-85.25" y="-76.5" />
+      <point x="1118.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.AddIfMax" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="3053.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.SaveResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.AddIfMax" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-76.5" />
+      <point x="1766.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.CountByMinimalPoint" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="71.75" y="-76.5" />
+      <point x="1015.75" y="3119.0" />
+      <point x="1824.0" y="3119.0" />
+      <point x="1824.0" y="2959.0" />
+      <point x="1384.0" y="2959.0" />
+      <point x="1384.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.CountByMinimalPoint" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="77.5" y="-64.5" />
+      <point x="3461.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.server.utility.Server" target="labs.lab7.server.utility.ConnectionHandler" relationship="TO_ONE">
+      <point x="0.0" y="-124.5" />
+      <point x="564.0" y="5659.0" />
+      <point x="4264.0" y="5659.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.RemoveLower" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="2813.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.utility.Runner" target="labs.lab7.client.utility.SessionHandler" relationship="TO_ONE">
+      <point x="0.0" y="-148.5" />
+      <point x="3984.0" y="3039.0" />
+      <point x="3824.0" y="3039.0" />
+      <point x="3824.0" y="2559.0" />
+      <point x="3784.0" y="2559.0" />
+      <point x="3784.0" y="2379.0" />
+      <point x="2984.0" y="2379.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.AddIfMaxRequest" target="labs.lab7.common.models.LabWork" relationship="TO_ONE">
+      <point x="65.75" y="-64.5" />
+      <point x="6209.75" y="3119.0" />
+      <point x="6824.0" y="3119.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Show" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="561.25" y="3119.0" />
+      <point x="564.0" y="3119.0" />
+      <point x="564.0" y="2959.0" />
+      <point x="524.0" y="2959.0" />
+      <point x="524.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.RemoveByIdRequest" target="labs.lab7.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="5224.0" y="3099.0" />
+      <point x="5384.0" y="3099.0" />
+      <point x="5384.0" y="2499.0" />
+      <point x="3104.0" y="2499.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.PrintFieldDescendingDifficultyResponse" target="labs.lab7.common.models.Difficulty" relationship="TO_MANY">
+      <point x="104.5" y="-64.5" />
+      <point x="6368.5" y="999.0" />
+      <point x="6824.0" y="999.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.Exit" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-57.25" y="-64.5" />
+      <point x="3166.75" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.InfoResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.5" />
+      <point x="3804.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.responses.ErrorResponse" target="labs.lab7.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="5104.0" y="1339.0" />
+      <point x="3224.0" y="1339.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.AddRequest" target="labs.lab7.common.models.LabWork" relationship="TO_ONE">
+      <point x="57.25" y="-64.5" />
+      <point x="6821.25" y="3119.0" />
+      <point x="6824.0" y="3119.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.PrintFieldDescendingDifficulty" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="85.25" y="-76.5" />
+      <point x="1289.25" y="3099.0" />
+      <point x="1864.0" y="3099.0" />
+      <point x="1864.0" y="2839.0" />
+      <point x="2144.0" y="2839.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Clear" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="4353.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Info" target="labs.lab7.server.commands.Command" relationship="GENERALIZATION">
+      <point x="-70.5" y="-64.5" />
+      <point x="6433.5" y="4139.0" />
+      <point x="3304.0" y="4139.0" />
+      <point x="3304.0" y="3839.0" />
+      <point x="2283.25" y="3839.0" />
+      <point x="59.25" y="148.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.RemoveById" target="labs.lab7.client.utility.Client" relationship="TO_ONE">
+      <point x="58.0" y="-76.5" />
+      <point x="2082.0" y="3059.0" />
+      <point x="2304.0" y="3059.0" />
+      <point x="2304.0" y="2919.0" />
+      <point x="2144.0" y="2919.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.server.commands.Add" target="labs.lab7.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="70.5" y="-64.5" />
+      <point x="2714.5" y="4159.0" />
+      <point x="6344.0" y="4159.0" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="labs.lab7.server.managers.CollectionManager" target="labs.lab7.common.models.LabWork" relationship="TO_MANY">
+      <point x="0.0" y="-340.5" />
+      <point x="6344.0" y="3139.0" />
+      <point x="6584.0" y="3139.0" />
+      <point x="6584.0" y="3059.0" />
+      <point x="6824.0" y="3059.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+    <edge source="labs.lab7.common.models.LabWork" target="labs.lab7.common.models.Coordinates" relationship="TO_ONE">
+      <point x="-103.25" y="-316.5" />
+      <point x="6500.75" y="979.0" />
+      <point x="6364.0" y="979.0" />
+      <point x="0.0" y="184.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.AddIfMax" target="labs.lab7.common.utility.Console" relationship="TO_ONE">
+      <point x="57.25" y="-76.5" />
+      <point x="1881.25" y="3039.0" />
+      <point x="2144.0" y="3039.0" />
+      <point x="2144.0" y="2959.0" />
+      <point x="1984.0" y="2959.0" />
+      <point x="1984.0" y="1319.0" />
+      <point x="1944.0" y="1319.0" />
+      <point x="1944.0" y="419.0" />
+      <point x="1941.75" y="419.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab7.client.commands.SignUp" target="labs.lab7.client.commands.Command" relationship="GENERALIZATION">
+      <point x="-75.75" y="-88.5" />
+      <point x="3628.25" y="2979.0" />
+      <point x="944.0" y="2979.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="labs.lab7.common.network.requests.RemoveLowerRequest" target="labs.lab7.common.models.LabWork" relationship="TO_ONE">
+      <point x="73.0" y="-64.5" />
+      <point x="6617.0" y="3119.0" />
+      <point x="6824.0" y="3119.0" />
+      <point x="6824.0" y="2579.0" />
+      <point x="6604.0" y="2579.0" />
+      <point x="0.0" y="316.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.2514099891342748" showDependencies="true" x="2260.123388284046" y="2716.3025634191004" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
